@@ -11,6 +11,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
+  background: #fbeeac;
 }
 /*
 
@@ -26,6 +27,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  text-decoration: underline;
 }
 h1 {
   font-size: 3rem;
@@ -42,6 +44,7 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+  letter-spacing: .09rem;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -93,6 +96,7 @@ Menu
 .title {
   text-align: center;
   margin-bottom: 2rem;
+
 }
 .underline {
   width: 5rem;
@@ -140,7 +144,7 @@ Menu
   object-fit: cover;
   height: 200px;
   width: 100%;
-  border: 0.25rem solid var(--clr-gold);
+  border: 1rem solid var(black);
   border-radius: var(--radius);
   display: block;
 }
